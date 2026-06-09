@@ -2,6 +2,7 @@
 # Solderpad Hardware License, Version 2.1, see LICENSE.md for details.
 # SPDX-License-Identifier: Apache-2.0 WITH SHL-2.1
 
+
 set ipName xilinx_mem_gen_8192
 
 create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name $ipName

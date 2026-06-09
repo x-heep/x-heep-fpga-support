@@ -2,6 +2,8 @@
 # Solderpad Hardware License, Version 2.1, see LICENSE.md for details.
 # SPDX-License-Identifier: Apache-2.0 WITH SHL-2.1
 
+
+
 # For pinout of the PYNQ-Z2 please refer to
 # https://us1.discourse-cdn.com/flex019/uploads/pynq1/original/2X/5/5b969c46185b0799d848915df3762fce368bf55d.png
 

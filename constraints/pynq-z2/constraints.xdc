@@ -2,6 +2,7 @@
 # Solderpad Hardware License, Version 2.1, see LICENSE.md for details.
 # SPDX-License-Identifier: Apache-2.0 WITH SHL-2.1
 
+
 create_clock -add -name sys_clk_pin -period 8.00 -waveform {0 4} [get_ports {clk_i}];
 create_clock -add -name jtag_clk_pin -period 100.00 -waveform {0 50} [get_ports {jtag_tck_i}];
 create_clock -add -name spi_slave_clk_pin -period 16.00 -waveform {0 8} [get_ports {spi_slave_sck_io}];
